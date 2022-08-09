@@ -44,7 +44,7 @@ def parse_gprmc(data):
 
 def creat_file(list):
 	now=datetime.now()
-	file_name=f"/home/sandeep/GIT/Logs/{now.year}-{now.month}-{now.day}--{now.hour}-{now.minute}-{now.second}.csv"
+	file_name=f"/home/sandeep/GIT /Logs/{now.year}-{now.month}-{now.day}--{now.hour}-{now.minute}-{now.second}.csv"
 	file= open(file_name, 'a+', newline='', encoding='utf-8')
 	header = [ 'Longitude', 'Latitude', "UTC-Time", 'No of satellites']
 	with file:
